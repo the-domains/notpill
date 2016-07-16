@@ -1,28 +1,40 @@
-name: notpill
-favicon: null
-layout_spectrum: 0.15839507314376533
-typography_spectrum: 0.8984911376610398
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
-  brandStrength: 0.6970470072701573
-  lightness: 0.8196589783765376
-  saturation: 0.5961599606089294
-  rhythmicContrast: 0.7312100995332003
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.5961599606089294
+  brandStrength: 1
+  lightness: 0.8196589783765376
+  brandColors:
+    - '#434D4C'
+    - '#2B3939'
+    - '#11191B'
+    - '#6E7D6A'
+    - '#A89766'
+  rhythmicContrast: 0.7312100995332003
+typography_spectrum: 0.8978494
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0
+favicon: null
+name: notpill
